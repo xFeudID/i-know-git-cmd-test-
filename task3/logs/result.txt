@@ -1,0 +1,4 @@
+1. mkdir -p task3/logs
+2. cd task3/logs
+3. nano access.log
+4. grep "denied wrong password" access.log | sort -r | head -n 5
